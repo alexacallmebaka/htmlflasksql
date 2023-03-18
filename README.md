@@ -14,25 +14,25 @@ You can find the slides [here](https://docs.google.com/presentation/d/18R0XdRPzW
 
 ## HTML
 ### Raw HTML
-[W3 Schools HTML Tutorial](https://www.w3schools.com/html/default.asp)
-[W3 Schools HTML Reference](https://www.w3schools.com/tags/default.asp)
+* [W3 Schools HTML Tutorial](https://www.w3schools.com/html/default.asp)
+* [W3 Schools HTML Reference](https://www.w3schools.com/tags/default.asp)
 
 ### CSS
 Make your HTML look fabulous with Cascading Style Sheets (CSS)!
-[W3 Schools CS Tutorial](https://www.w3schools.com/css/default.asp)
-[W3 Schools CS Reference](https://www.w3schools.com/cssref/index.php)
+* [W3 Schools CS Tutorial](https://www.w3schools.com/css/default.asp)
+* [W3 Schools CS Reference](https://www.w3schools.com/cssref/index.php)
 
 
 ### Jinja
-[Jinja Template Designer Reference](https://jinja.palletsprojects.com/en/3.1.x/templates/)
-[Jinja API Reference](https://jinja.palletsprojects.com/en/3.1.x/api/#)
+* [Jinja Template Designer Reference](https://jinja.palletsprojects.com/en/3.1.x/templates/)
+* [Jinja API Reference](https://jinja.palletsprojects.com/en/3.1.x/api/#)
 
 ## Flask
-[Flask Quickstart](https://flask.palletsprojects.com/en/2.2.x/quickstart/#)
-[Flask Tutorial](https://flask.palletsprojects.com/en/2.2.x/tutorial/)
-[Flask API Reference](https://flask.palletsprojects.com/en/2.2.x/#api-reference)
+* [Flask Quickstart](https://flask.palletsprojects.com/en/2.2.x/quickstart/#)
+* [Flask Tutorial](https://flask.palletsprojects.com/en/2.2.x/tutorial/)
+* [Flask API Reference](https://flask.palletsprojects.com/en/2.2.x/#api-reference)
 
 ## SQL
-[W3 Schools SQL Tutorial](https://www.w3schools.com/sql/default.asp)
-[W3 Schools SQL Reference](https://www.w3schools.com/sql/sql_ref_keywords.asp)
+* [W3 Schools SQL Tutorial](https://www.w3schools.com/sql/default.asp)
+* [W3 Schools SQL Reference](https://www.w3schools.com/sql/sql_ref_keywords.asp)
 
