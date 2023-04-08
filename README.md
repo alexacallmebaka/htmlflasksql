@@ -8,8 +8,6 @@ After this workshop, beginners will be equipped with the skills for a successful
 
 This repository contains all info relevant to the workshop, as well as the code used in the presentation.
 
-You can find the slides [here](https://docs.google.com/presentation/d/18R0XdRPzWN4TIQa5Awt4Zx5-SRIkniWQ3KbHzvSKHgQ/edit?usp=sharing).
-
 # Resources
 
 ## HTML
@@ -36,3 +34,5 @@ Make your HTML look fabulous with Cascading Style Sheets (CSS)!
 * [W3 Schools SQL Tutorial](https://www.w3schools.com/sql/default.asp)
 * [W3 Schools SQL Reference](https://www.w3schools.com/sql/sql_ref_keywords.asp)
 
+# TODO
+requirements.txt
