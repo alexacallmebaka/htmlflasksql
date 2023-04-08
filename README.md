@@ -17,8 +17,8 @@ This repository contains all info relevant to the workshop, as well as the code 
 
 ### CSS
 Make your HTML look fabulous with Cascading Style Sheets (CSS)!
-* [W3 Schools CS Tutorial](https://www.w3schools.com/css/default.asp)
-* [W3 Schools CS Reference](https://www.w3schools.com/cssref/index.php)
+* [W3 Schools CSS Tutorial](https://www.w3schools.com/css/default.asp)
+* [W3 Schools CSS Reference](https://www.w3schools.com/cssref/index.php)
 
 
 ### Jinja
