@@ -2,7 +2,7 @@
 import sqlite3
 
 #click manages the flask cli.
-import click
+#import click
 
 #allow us to access the current app instance (current_app) and current session (g).
 from flask import current_app, g
@@ -35,20 +35,20 @@ def close_db(e=None):
         db.close()
 
 #create the db from schema
-def init_db():
-    db = get_db()
-
-    #open the schema and create the db tables.
-    with current_app.open_resource('schema.sql') as f:
-        db.executescript(f.read())
+#def init_db():
+#    db = get_db()
+#
+#    #open the schema and create the db tables.
+#    with current_app.open_resource('schema.sql') as f:
+#        db.executescript(f.read())
 
 
 #this allows us to call 'init-db' from the command line to create our database.
-@click.command('init-db')
-def init_db_command():
-    """Clear the existing data and create new tables."""
-    init_db()
-    click.echo('Initialized the database.')
+#@click.command('init-db')
+#def init_db_command():
+#    """Clear the existing data and create new tables."""
+#    init_db()
+#    click.echo('Initialized the database.')
 
 #this will register the 'init-db' command with the flask cli and 
 #also tell flask to close the db when the app has finished running

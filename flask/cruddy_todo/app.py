@@ -1,6 +1,6 @@
 #import the relevant stuff.
 from flask import redirect, render_template, request, url_for, Flask
-from db import get_db, init_app
+from db import get_db, init_app, init_db
 from os import path, makedirs
 
 #app setup
@@ -74,4 +74,5 @@ def del_todo():
 
 if __name__ == '__main__':
     #default to showing the todos.
+    init_db()
     show_todo()
