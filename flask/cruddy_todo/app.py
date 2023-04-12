@@ -1,16 +1,11 @@
 #import the relevant stuff.
 from flask import redirect, render_template, request, url_for, Flask
-from db import get_db, init_app, init_db
-from os import path, makedirs
+from db import get_db, init_app
 
 #app setup
 app = Flask(__name__, instance_relative_config=True)
 init_app(app)
-app.config.from_mapping(DATABASE=path.join(app.instance_path, 'todo.db'))
-
-#ensure the instance folder exists
-if not path.isdir(app.instance_path):
-    makedirs(app.instance_path)
+app.config.from_mapping(DATABASE='todo.db')
 
 @app.route('/')
 def show_todo():
