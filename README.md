@@ -34,9 +34,8 @@ Make your HTML look fabulous with Cascading Style Sheets (CSS)!
 * [W3 Schools SQL Tutorial](https://www.w3schools.com/sql/default.asp)
 * [W3 Schools SQL Reference](https://www.w3schools.com/sql/sql_ref_keywords.asp)
 
-## git
+## git and GitHub
+* [GitHub Create Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token-classic)
+* [GitHub Getting Started](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
 * [Download git](https://git-scm.com/downloads)
 * [git Book](https://git-scm.com/book/en/v2)
-
-# TODO
-requirements.txt
