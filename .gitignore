@@ -1,2 +1,3 @@
 cruddy_todo/instance/*
 .~lock.*
+*.db
