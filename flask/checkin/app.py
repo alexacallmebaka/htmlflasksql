@@ -9,7 +9,7 @@ def get_db() :
     #connect to the database
     g.db = sqlite3.connect('database.db')
 
-    #this tells the session how to extract rows from the database. it will return rows that behave like dictionaries.
+    #this tells the session how to extract rows from the database. sqlite3.Row  will return rows that behave like dictionaries.
     g.db.row_factory = sqlite3.Row
 
     #Create the main table if it doesn't exist.
@@ -33,7 +33,7 @@ def index():
         #write changes to db.
         db.commit()
 
-    #get all todos from the database and pass them to the template.
+    #get all names from the database and pass them to the template.
     names = db.execute('SELECT * FROM names').fetchall() 
 
     return render_template('index.html', names=names)
