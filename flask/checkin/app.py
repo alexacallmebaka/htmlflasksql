@@ -20,7 +20,12 @@ def get_db() :
 #Tell flask to close the db when the app has finished running
 @app.teardown_appcontext
 def close_db(exception):
-    g.db.close()
+    #get db connection.
+    db = g.pop('db', None)
+
+    #if there is a connection, close the db.
+    if db is not None:
+        db.close()
 
 @app.route('/', methods=('GET', 'POST'))
 def index():
